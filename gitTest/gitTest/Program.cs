@@ -13,6 +13,7 @@ namespace gitTest
             Console.WriteLine("Hello Git");
             int x = 12;
             Console.WriteLine(x.Ext());
+            Console.WriteLine("Test2");
             Console.ReadKey();
         }
     }
