@@ -9,7 +9,7 @@ namespace gitTest
 {
     public static class ConnectionDB
     {
-        public static string ConnectionString1()
+        public static string ConnectionString()
         {
             return ConnectionString("localhost");
         }
