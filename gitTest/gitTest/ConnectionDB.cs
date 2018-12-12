@@ -21,7 +21,7 @@ namespace gitTest
             return stringBuilder.ConnectionString;
         }
 
-        public static SqlConnection Connection3()
+        public static SqlConnection Connection2()
         {
             return new SqlConnection(ConnectionString());
         }

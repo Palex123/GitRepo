@@ -13,7 +13,7 @@ namespace gitTest
         {
             Console.WriteLine("Hello Git");
             int x = 12;
-            SqlConnection con = ConnectionDB.Connection3();
+            SqlConnection con = ConnectionDB.Connection2();
             try
             {
                 con.Open();
