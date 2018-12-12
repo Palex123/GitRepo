@@ -24,6 +24,9 @@ namespace gitTest
             {
                 Console.WriteLine(ex.Message);
             }
+
+            testClass testCl = new testClass();
+            testCl.Mess("test");
             Console.WriteLine(x.Ext());
             Console.WriteLine("Test2");
             Console.ReadKey();
