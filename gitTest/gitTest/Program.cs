@@ -13,7 +13,9 @@ namespace gitTest
         {
             Console.WriteLine("Hello Git");
             int x = 12;
-            SqlConnection con = ConnectionDB.Connection2();
+
+            SqlConnection con = ConnectionDB.Connection3();
+
             try
             {
                 con.Open();
@@ -22,6 +24,9 @@ namespace gitTest
             {
                 Console.WriteLine(ex.Message);
             }
+
+            testClass testCl = new testClass();
+            testCl.Mess("test");
             Console.WriteLine(x.Ext());
             Console.WriteLine("Test2");
             Console.ReadKey();
