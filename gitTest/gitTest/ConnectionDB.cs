@@ -23,7 +23,7 @@ namespace gitTest
 
         public static SqlConnection Connection()
         {
-            return new SqlConnection(ConnectionString1());
+            return new SqlConnection(ConnectionString());
         }
     }
 }
